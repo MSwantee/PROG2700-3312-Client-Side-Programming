@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Your World 🌍</title>
+    <link rel="icon" href="https://edube.org/uploads/media/default/0001/04/web-favicon.png" type="image/png">
+    <script src="script.js" defer></script>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; }
+        img { max-width: 100%; height: auto; border: 2px solid #333; border-radius: 8px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; margin: 20px 0; }
+        .map-container { margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>Discover Your World &#x1F30D;</h1>
+    <p>Explore the continents, rivers, and mountains of our planet. Click a continent or use the button below to find your location!</p>
+    <button id="discoverLocation">Discover Location</button>
+    <div class="map-container">
+        <img src="https://edube.org/uploads/media/default/0001/04/continents.jpg" usemap="#image-map" alt="World Map">
+        <map name="image-map">
+            <area alt="North America" title="North America" id="north-america" coords="386,283,41,17" shape="rect" href="javascript:void(0);">
+            <area alt="South America" title="South America" id="south-america" coords="209,501,358,288" shape="rect" href="javascript:void(0);">
+            <area alt="Europe" title="Europe" id="europe" coords="391,68,505,217" shape="rect" href="javascript:void(0);">
+            <area alt="Africa" title="Africa" id="africa" coords="533,217,387,448" shape="rect" href="javascript:void(0);">
+            <area alt="Asia" title="Asia" id="asia" coords="893,153,506,1" shape="rect" href="javascript:void(0);">
+            <area alt="Australia and Oceania" title="Australia and Oceania" id="australia-and-oceania" coords="679,353,872,480" shape="rect" href="javascript:void(0);">
+        </map>
+    </div>
+</body>
+</html>
